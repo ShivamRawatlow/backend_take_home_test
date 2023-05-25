@@ -32,3 +32,6 @@ POST '/user/apparel/find' : this api takes an apparel configuration (i.e. qualit
 Things that can be added to improve performance for a larger scale application : 
 
 * The application with get slower exponentially with every increase in apparel data. To improve performance Id can be stored in different storage unit alogn with address of each apparel. 
+
+
+##Deployment link : https://frontend-take-home-test.netlify.app/
