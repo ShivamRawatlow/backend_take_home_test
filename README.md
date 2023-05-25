@@ -24,9 +24,9 @@ POST '/vendor/apparels/update' : this api takes multiple apparels data and updat
 
 POST '/user/apparel/find' : this api takes an apparel configuration (i.e. quality and size) as input and finds all the apparels that match the particular configuration. And then it returns the minimum price apparel that matches with the given configuration.
 
-apparel data format sample : {"id":"1234","quality":"HI","base_price":123464,"size":"XXL"} 
-in quality only 'HI' | 'ME' | 'AV' are allowed
-int size only 'XXL' | 'XL' | 'M' | 'S'
+* apparel data format sample : {"id":"1234","quality":"HI","base_price":123464,"size":"XXL"} 
+* in quality only 'HI' | 'ME' | 'AV' are allowed
+* int size only 'XXL' | 'XL' | 'M' | 'S'
 
 ##
 Things that can be added to improve performance for a larger scale application : 
